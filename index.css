@@ -63,7 +63,7 @@ body {
 
 .currency-container__table {
 	border-collapse: collapse;
-    width: 100%;
+	width: 100%;
 }
 
 .currency-container__table-wrapper {
@@ -82,4 +82,20 @@ td {
 th,
 td {
 	padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		height: auto;
+		padding: 40px 20px;
+	}
+
+	.currency-container {
+		flex-direction: column-reverse;
+	}
+
+	.currency-container__table-wrapper,
+	.currency-container__interaction {
+		width: 100%;
+	}
 }
