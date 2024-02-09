@@ -20,7 +20,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
-	width: 80%;
+	width: 100%;
 }
 
 .icon {
@@ -100,5 +100,12 @@ input[type='number'] {
 	.currency-container__table-wrapper,
 	.currency-container__interaction {
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.icon {
+		top: 5px;
+		transform: translateY(0%);
 	}
 }
